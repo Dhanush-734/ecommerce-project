@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, DECIMAL, ForeignKey
+from sqlalchemy import Column, Integer, ForeignKey, Float
 from app.core.database import Base
 
 class Payment(Base):
